@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 
 
-import { image } from './img'
+import image from './img/image.png'
 
 const DarkVariantExample = () => {
   return (
@@ -16,7 +16,7 @@ const DarkVariantExample = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="image"
+          src={image}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -27,7 +27,7 @@ const DarkVariantExample = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="image"
+          src={image}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -38,7 +38,7 @@ const DarkVariantExample = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="image"
+          src={image}
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -58,8 +58,9 @@ function App() {
   return (
     <>
 
-      <Carousel />
+      {/* <Carousel /> */}
       <Button>iufh</Button>
+      <DarkVariantExample />
 
 
 
