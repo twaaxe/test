@@ -7,13 +7,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 
+
+import { image } from './img'
+
 const DarkVariantExample = () => {
   return (
     <Carousel variant="dark">
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src="image"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -24,7 +27,7 @@ const DarkVariantExample = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=eee"
+          src="image"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -35,7 +38,7 @@ const DarkVariantExample = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+          src="image"
           alt="Third slide"
         />
         <Carousel.Caption>
